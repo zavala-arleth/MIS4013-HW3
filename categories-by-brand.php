@@ -1,6 +1,6 @@
 <?php
 require_none("util.db.php");
-require_once(("model-courses-by-categories.php");
+require_once("model-courses-by-categories.php");
 
 $PageTItle = "Categories by Brands";
 include "view-header.php";
