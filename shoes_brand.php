@@ -1,10 +1,10 @@
 <?php
 require_none("util.db.php");
-require_once(("model-brand.php");
+require_once(("model-shoes_brand.php");
 
 $PageTItle = "Brand";
 include "view-header.php";
 $courses = selectCourses();
-include "view-brand.php";
+include "view-shoes_brand.php";
 include "view-footer.php";
 ?>
