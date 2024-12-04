@@ -1,4 +1,4 @@
-<h>Shoes</h>
+<h>Shoe Brands</h>
 <div class="table-responsive">
   <table class="table">
     <thread>
@@ -11,7 +11,7 @@
     </thread> 
     <body>
       <?php
-        while ($brand = $instructors->fetch_assoc()) {
+        while ($brand = $brand->fetch_assoc()) {
           ?>
           <tr>
             <td><? php echo $brand ['id']; <?</td>
