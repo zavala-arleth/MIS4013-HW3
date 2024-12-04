@@ -1,21 +1,23 @@
-<h>Instructors</h>
+<h>Shoes</h>
 <div class="table-responsive">
   <table class="table">
     <thread>
     <tr>
       <th>ID</th>
-      <th>Name</th>
-      <th>Office</th>
+      <th>Brand Name</th>
+      <th>Founded Year</th>
+      <th>Country</th>
     </tr>
     </thread> 
     <body>
       <?php
-        while ($instructor = $instructors->fetch_assoc()) {
+        while ($brand = $instructors->fetch_assoc()) {
           ?>
           <tr>
-            <td><? php echo $instructor ['instructor_id']; <?</td>
-             <td><? php echo $instructor ['instructor_name']; <?</td>
-             <td><? php echo $instructor ['office_number']; <?</td>
+            <td><? php echo $brand ['id']; <?</td>
+             <td><? php echo $brand ['brand_name']; <?</td>
+             <td><? php echo $brand ['founded_year']; <?</td>
+            <td><? php echo $brand ['country']; <?</td>
           </tr>
   </table>
 </div>
