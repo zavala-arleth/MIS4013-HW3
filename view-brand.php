@@ -21,5 +21,6 @@
             <td><? php echo $brand ['country']; <?</td>
             <td><a href="categories-by-brand.php?id=<?php echo $brand['id']; <?">Categories</a></td> 
           </tr>
+    </body> 
   </table>
 </div>
