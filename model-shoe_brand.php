@@ -1,8 +1,8 @@
 <?php
-function selectInstructors() {
+function selectshoe_brands() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT Instructor_ID, instucotr_name,office_number FROM instructor");
+        $stmt = $conn->prepare("SELECT id, brand_name, founded_year, country FROM shoe_brand");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
