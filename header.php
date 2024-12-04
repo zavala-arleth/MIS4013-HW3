@@ -26,7 +26,7 @@
                 <a class="nav-link" href="categories.php">Categories</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Instructors-With-Courses.php">Instructors With Courses</a>
+                <a class="nav-link" href="Instructors-With-Courses.php">Reviews</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Get-Result.php">Get Result</a>
