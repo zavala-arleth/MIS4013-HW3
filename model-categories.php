@@ -2,7 +2,7 @@
 function selectCourses() {
   try {
     $conn = get_db_connection();
-    $stmt = $conn->prepare("SELECT course_id, course_number, course_description FROM 'course'");
+    $stmt = $conn->prepare("SELECT category_id, category_name FROM 'shoe_categories'");
     $stmt->execute();
     $result - $stmt->get_result();
     $conn->close();
