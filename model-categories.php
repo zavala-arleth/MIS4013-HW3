@@ -1,8 +1,8 @@
 <?php
-function selectshoe_categories() {
+function selectcategories() {
   try {
     $conn = get_db_connection();
-    $stmt = $conn->prepare("SELECT category_id, category_name FROM 'shoe_categories'");
+    $stmt = $conn->prepare("SELECT category_id, category_name FROM 'categories'");
     $stmt->execute();
     $result - $stmt->get_result();
     $conn->close();
