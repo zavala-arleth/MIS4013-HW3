@@ -1,9 +1,9 @@
 <?php
 require_once ("util-db.php");
-require_once("model-shoes.php");
-$pageTitle = "Shoes";
+require_once("model-shoe_brand.php");
+$pageTitle = "Shoe Brands";
   include "header.php";
 $instructors= selectInstructors();
-include "view-shoes.php";
+include "view-shoe_brand.php";
 include "footer.php";
 ?>
