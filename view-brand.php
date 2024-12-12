@@ -11,6 +11,7 @@
     </thead> 
     <tbody>
       <?php
+        $result=  selectbrand();
         while ($brand = $brand->fetch_assoc()) {
           ?>
           <tr>
