@@ -12,8 +12,8 @@
         while ($categories = $categories->fetch_assoc()) {
           ?>
           <tr>
-            <td><? php echo $categories ['category_id']; <?</td>
-             <td><? php echo $categories ['category_name']; <?</td>
+            <td><? php echo $categories ['category_id']; ?></td>
+             <td><? php echo $categories ['category_name']; ?></td>
           </tr>
             </tbody>
   </table>
