@@ -1,3 +1,6 @@
+<?php
+require_once 'model-brand.php';
+?>
 <h1>Shoe Brands</h1>
 <div class="table-responsive">
   <table class="table">
