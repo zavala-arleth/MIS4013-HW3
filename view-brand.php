@@ -12,7 +12,7 @@
     <tbody>
       <?php
         $result=  selectbrand();
-        while ($brand = $brand->fetch_assoc()) {
+        while ($brand = $result->fetch_assoc()) {
           ?>
           <tr>
             <td><?php echo $brand ['id']; ?></td>
