@@ -12,7 +12,7 @@ require_once 'model-categories.php';
     </thead>
     <tbody>
       <?php
-      $result = selectCategories();
+      $result = selectcategories();
       while ($category = $result->fetch_assoc()) {
         ?>
         <tr>
