@@ -1,5 +1,5 @@
 <?php
-require_none("util-db.php");
+require_once("util-db.php");
 require_once("model-categories.php");
 
 $PageTItle = "Categories";
