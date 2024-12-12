@@ -1,5 +1,5 @@
 <?php
-require_once 'util_db.php';
+require_once 'util-db.php';
 function selectbrand() {
        $conn = get_db_connection();
     if (!$conn) {
