@@ -1,4 +1,5 @@
 <?php
+require_once 'util-db.php';
 function selectcategories() {
   try {
     $conn = get_db_connection();
