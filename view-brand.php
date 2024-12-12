@@ -1,4 +1,4 @@
-<h>Shoe Brands</h>
+<h1>Shoe Brands</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -10,7 +10,7 @@
       <th></th>
     </tr>
     </thead> 
-    <body>
+    <tbody>
       <?php
         while ($brand = $brand->fetch_assoc()) {
           ?>
@@ -21,6 +21,9 @@
             <td><? php echo $brand ['country']; ?></td>
             //<td><a href="categories-by-brand.php?id=<?php echo $brand['id']; <?">Categories</a></td> 
           </tr>
-    </body> 
+          <?php
+          }
+          ?>
+    </tbody> 
   </table>
 </div>
