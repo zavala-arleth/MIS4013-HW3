@@ -13,7 +13,7 @@ require_once 'model-product-by-brand.php';
     </thead> 
     <tbody>
       <?php
-        $result=  selectproduct();
+        $result=  selectproductByBrand();
         while ($product = $result->fetch_assoc()) {
           ?>
           <tr>
