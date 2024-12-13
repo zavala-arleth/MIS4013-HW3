@@ -1,5 +1,7 @@
-
-<h>Reviews</h>
+<?php
+require_once 'model-reviews.php';
+?>
+<h1>Reviews</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -12,14 +14,18 @@
     </thead> 
     <tbody>
       <?php
+        $result = selectreviews();
         while ($reviews = $reviews->fetch_assoc()) {
           ?>
           <tr>
-            <td><? php echo $reviews ['review_id']; <?</td>
-             <td><? php echo $reviews ['rating']; <?</td>
-            <td><? php echo $reviews ['review_text']; <?</td>
-            <td><? php echo $reviews ['review_date']; <?</td>
+            <td><?php echo $reviews ['review_id']; ?></td>
+             <td><?php echo $reviews ['rating']; ?></td>
+            <td><?php echo $reviews ['review_text']; ?></td>
+            <td><?php echo $reviews ['review_date']; ?></td>
           </tr>
+            <?php
+      }
+      ?>
             </tbody>
   </table>
 </div>
