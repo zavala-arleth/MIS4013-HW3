@@ -7,7 +7,7 @@ function selectproductByBrand($iid) {
 ");
     $stmt->bind_param("i", $iid);
     $stmt->execute();
-    $result - $stmt->get_result();
+    $result = $stmt->get_result();
     $conn->close();
     return $result;
   } catch (Exception $e) {
