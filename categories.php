@@ -2,7 +2,7 @@
 require_once("util-db.php");
 require_once("model-categories.php");
 
-$PageTItle = "Categories";
+$PageTitle = "Categories";
 include "view-header.php";
 $categories = selectcategories();
 include "view-categories.php";
