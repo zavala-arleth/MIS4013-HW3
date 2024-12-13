@@ -15,7 +15,7 @@ require_once 'model-reviews.php';
     <tbody>
       <?php
         $result = selectreviews();
-        while ($reviews = $reviews->fetch_assoc()) {
+        while ($reviews = $result->fetch_assoc()) {
           ?>
           <tr>
             <td><?php echo $reviews ['review_id']; ?></td>
