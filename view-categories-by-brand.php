@@ -1,4 +1,4 @@
-<h>Categories By Brand</h>
+<h>Products By Brand</h>
 <div class="table-responsive">
   <table class="table">
     <thread>
