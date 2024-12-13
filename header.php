@@ -20,6 +20,9 @@
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="product.php">Products</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="brand.php">Shoe Brands</a>
               </li>
               <li class="nav-item">
@@ -27,9 +30,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Instructors-With-Courses.php">Reviews</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Get-Result.php">Get Result</a>
               </li>
             </ul>
           </div>
