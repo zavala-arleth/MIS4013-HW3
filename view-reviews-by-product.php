@@ -15,7 +15,7 @@ require_once 'model-reviews-by-product.php';
     </thead> 
     <tbody>
       <?php
-      $result = selectreviews();
+      $result = selectreviewsByProducts();
       while ($review = $result->fetch_assoc()) { 
         ?>
         <tr>
