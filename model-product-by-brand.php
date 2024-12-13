@@ -1,11 +1,11 @@
 
 <?php
-function selectproductByBrand($brandId) {
+function selectproductByBrand($pid) {
   try {
     $conn = get_db_connection();
     $stmt = $conn->prepare("SELECT p.product_id, p.product_name, b.id AS brand_id, b.brand_name FROM product p JOIN brand b ON p.brand_id = b.id WHERE p.product_id = ?
 ");
-    $stmt->bind_param("i", $bradnId);
+    $stmt->bind_param("i", $pid);
     $stmt->execute();
     $result = $stmt->get_result();
     $conn->close();
