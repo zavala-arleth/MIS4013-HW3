@@ -10,6 +10,7 @@ require_once 'model-reviews.php';
         <th>Rating</th>
         <th>Review Text</th>
         <th>Review Date</th>
+        <th>Product ID</th>
       </tr>
     </thead> 
     <tbody>
@@ -22,6 +23,7 @@ require_once 'model-reviews.php';
           <td><?php echo $review['rating']; ?></td>
           <td><?php echo $review['review_text']; ?></td>
           <td><?php echo $review['review_date']; ?></td>
+          <td><?php echo $review['product_id']; ?></td>
         </tr>
         <?php
       }
