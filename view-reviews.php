@@ -5,27 +5,27 @@ require_once 'model-reviews.php';
 <div class="table-responsive">
   <table class="table">
     <thead>
-    <tr>
-      <th>Review ID</th>
-      <th>Rating</th>
-      <th>Review Text</th>
-      <th>Review Date</th>
-    </tr>
+      <tr>
+        <th>Review ID</th>
+        <th>Rating</th>
+        <th>Review Text</th>
+        <th>Review Date</th>
+      </tr>
     </thead> 
     <tbody>
       <?php
-        $result = selectreviews();
-        while ($reviews = $result->fetch_assoc()) {
-          ?>
-          <tr>
-            <td><?php echo $reviews ['review_id']; ?></td>
-             <td><?php echo $reviews ['rating']; ?></td>
-            <td><?php echo $reviews ['review_text']; ?></td>
-            <td><?php echo $reviews ['review_date']; ?></td>
-          </tr>
-            <?php
+      $result = selectreviews();
+      while ($review = $result->fetch_assoc()) { 
+        ?>
+        <tr>
+          <td><?php echo $review['review_id']; ?></td>
+          <td><?php echo $review['rating']; ?></td>
+          <td><?php echo $review['review_text']; ?></td>
+          <td><?php echo $review['review_date']; ?></td>
+        </tr>
+        <?php
       }
       ?>
-            </tbody>
+    </tbody>
   </table>
 </div>
