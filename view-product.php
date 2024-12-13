@@ -18,10 +18,10 @@ require_once 'model-product.php';
         while ($product = $result->fetch_assoc()) {
           ?>
           <tr>
-            <td><?php echo $brand ['product_id']; ?></td>
-             <td><?php echo $brand ['product_name']; ?></td>
-             <td><?php echo $brand ['category_id']; ?></td>
-            <td><?php echo $brand ['brand_id']; ?></td>
+            <td><?php echo $product ['product_id']; ?></td>
+             <td><?php echo $product ['product_name']; ?></td>
+             <td><?php echo $product ['category_id']; ?></td>
+            <td><?php echo $product ['brand_id']; ?></td>
           </tr>
           <?php
           }
