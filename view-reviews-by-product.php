@@ -1,7 +1,7 @@
 <?php
 require_once 'model-reviews-by-product.php';
 ?>
-<h1>Reviews</h1>
+<h1>Reviews by Products</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -15,7 +15,7 @@ require_once 'model-reviews-by-product.php';
     </thead> 
     <tbody>
       <?php
-      $result = selectreviewsByProduct();
+      $result = selectreviewsByProduct($_POST['pid']);
       while ($review = $result->fetch_assoc()) { 
         ?>
         <tr>
