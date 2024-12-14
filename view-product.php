@@ -24,7 +24,7 @@ require_once 'model-product.php';
             <td><?php echo $product ['brand_id']; ?></td>
           </tr>
          <form method="post" action="reviews-by-product.php">
-        <input type="hidden" name="pid" value="<?php echo $product ['id']; ?>">
+        <input type="hidden" name="pid" value="<?php echo $product ['product_id']; ?>">
         <button type="submit" class="btn-primary">Shoe</button>
       </form>
           <?php
