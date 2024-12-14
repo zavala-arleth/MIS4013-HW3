@@ -7,14 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
   .navbar {
-    background-color: #f8f9fa; 
+    background-color: white; 
 }
 .navbar .nav-link {
     color: grey;
 }
-.navbar .nav-link:hover {
-    color: black; 
-}
+body{
+  background: light-blue;
+  text-align: center;
+  
+ }
     </style>
   </head>
   <body>
