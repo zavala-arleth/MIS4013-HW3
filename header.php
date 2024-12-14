@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?=$pageTitle?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-.navbar {
+    <style>
+  .navbar {
     background-color: #f8f9fa; 
 }
 .navbar .nav-link {
@@ -14,6 +15,7 @@
 .navbar .nav-link:hover {
     color: black; 
 }
+    </style>
   </head>
   <body>
     <div class="container">
