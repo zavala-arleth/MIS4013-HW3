@@ -6,5 +6,5 @@ $PageTitle = "Reviews by Product";
 include "header.php";
 $categories = selectreviewsByProduct($_POST['id']);
 include "view-reviews-by-product.php";
-include "view-footer.php";
+include "footer.php";
 ?>
