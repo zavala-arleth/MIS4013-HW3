@@ -11,7 +11,7 @@
     text-align: center;
     
 }
-.navbar .nav-link {
+.container {
     color: grey;
 }
 body{
