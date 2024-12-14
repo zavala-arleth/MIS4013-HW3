@@ -22,7 +22,13 @@ require_once 'model-brand.php';
              <td><?php echo $brand ['brand_name']; ?></td>
              <td><?php echo $brand ['founded_year']; ?></td>
             <td><?php echo $brand ['country']; ?></td>
-          </tr>
+          </td>
+      <form>
+        <button type="submit" class="btn-primary">Sections</button>
+      </form>
+    </tbody>
+  </td>
+  </tr>
           <?php
           }
           ?>
