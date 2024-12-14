@@ -29,7 +29,7 @@
                 <a class="nav-link" href="categories.php">Categories</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Instructors-With-Courses.php">Reviews</a>
+                <a class="nav-link" href="reviews.php">Reviews</a>
               </li>
             </ul>
           </div>
