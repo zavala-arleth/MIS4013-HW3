@@ -23,7 +23,8 @@ require_once 'model-brand.php';
              <td><?php echo $brand ['founded_year']; ?></td>
             <td><?php echo $brand ['country']; ?></td>
           </td>
-      <form>
+      <form method="post" action="sections-by-course.php">
+        <input type="hidden" name="bid" value="<?php echo $brand ['id']; ?>">
         <button type="submit" class="btn-primary">Sections</button>
       </form>
     </tbody>
