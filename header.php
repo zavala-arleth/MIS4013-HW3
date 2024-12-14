@@ -7,7 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
   .navbar {
-    background-color: white; 
+    background-color: light-blue; 
+    text-align: center;
+    
 }
 .navbar .nav-link {
     color: grey;
