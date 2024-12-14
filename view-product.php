@@ -23,6 +23,10 @@ require_once 'model-product.php';
              <td><?php echo $product ['category_id']; ?></td>
             <td><?php echo $product ['brand_id']; ?></td>
           </tr>
+         <form method="post" action="reviews-by-product.php">
+        <input type="hidden" name="pid" value="<?php echo $product ['id']; ?>">
+        <button type="submit" class="btn-primary">Shoe</button>
+      </form>
           <?php
           }
           ?>
