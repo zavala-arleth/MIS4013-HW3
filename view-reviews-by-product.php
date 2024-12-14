@@ -25,10 +25,6 @@ require_once 'model-reviews-by-product.php';
           <td><?php echo $review['review_date']; ?></td>
           <td><?php echo $review['product_id']; ?></td>
         </tr>
-         <form method="post" action="reviews-by-product.php">
-        <input type="hidden" name="pid" value="<?php echo $product ['id']; ?>">
-        <button type="submit" class="btn-primary">Shoes</button>
-      </form>
         <?php
       }
       ?>
