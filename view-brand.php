@@ -25,7 +25,7 @@ require_once 'model-brand.php';
           </td>
       <form method="post" action="product-by-brand.php">
         <input type="hidden" name="bid" value="<?php echo $brand ['id']; ?>">
-        <button type="submit" class="btn-primary">Sections</button>
+        <button type="submit" class="btn-primary">Shoes</button>
       </form>
     </tbody>
   </td>
